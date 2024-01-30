@@ -121,8 +121,8 @@
 	margin: 3rem;
 }
 .conte .flex .item img {
-	max-width: 80%;
-	width: 80%;
+	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 .conte .flex .item p {
@@ -130,8 +130,8 @@
 	margin-bottom: 1rem;
 }
 .douga .flex .item img {
-	max-width: 80%;
-	width: 80%;
+	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 .douga .flex .item p {
