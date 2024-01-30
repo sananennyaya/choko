@@ -207,6 +207,9 @@ iframe {
 	color: #ff1583;
 }
 
+.shoukai h3 {
+	font-size: 2rem;
+}
 
   @media (min-width:1200px) {
     .page {
