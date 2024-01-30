@@ -1,0 +1,265 @@
+  @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .page * {
+    margin: 0;
+  }
+  .page-head img {
+    width: 200px;
+    vertical-align: bottom;
+  }
+  .page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+  .page-head {
+	grid-column: 1;
+	padding: 15px 0;
+	grid-row: 1;
+	background-color: #fff;
+	text-align: center;
+  }
+  .page-main {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #fff;
+  }
+  .page-nav {
+    grid-column: 1;
+    grid-row: 2;
+    z-index: 100;
+    background: #fff;
+    display: none;
+  }
+  .open .page-nav {
+    display: block;
+  }
+  .page-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .page-nav a {
+    margin: 30px;
+    display: block;
+    border-bottom: solid 1px #462fe7;
+    color: #FF1583;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .page-btn, .page-btn-close {
+	grid-column: 1;
+	grid-row: 1;
+	justify-self: start;
+	padding: 20px;
+	border: none;
+	align-self: center;
+	background-color: transparent;
+	color: #FF1583;
+	font-size: 28px;
+	cursor: pointer;
+  }
+  .page-btn-close {
+    display: none;
+  }
+  .open .page-btn {
+    display: none;
+  }
+  .open .page-btn-close {
+    display: block;
+  }
+  .page-foot {
+    grid-column: 1;
+    padding: 20px 0;
+    grid-row: 3;
+    background-color: #462fe7;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+  .page .page-main .class1 .page-title {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Monomaniac One', sans-serif;
+    margin-top: 2%;
+  }
+  .page-main .class1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .page-main .class1 p {
+    margin-bottom: 1rem;
+    max-width: 100%;
+  }
+  .class1 p img {
+	width: 60%;
+	max-width: 60%;
+	height: auto;
+	margin-top: 2rem;
+  }
+  h3 {
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 3rem;
+  }
+  .page .page-main .syoukai {
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+  }
+  .page .page-main .profile {
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+  }
+.page .page-main .conte {
+	margin: 3rem;
+}
+.conte .flex .item img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+.conte .flex .item p {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.douga .flex .item img {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+.douga .flex .item p {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.flex .item .youtube {
+	padding-top: 56.25%;
+	width: 100%;
+	position: relative;
+}
+.flex .item .youtube iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+.page .page-main .douga {
+	margin: 3rem;
+}
+iframe {
+	min-width: 400px;
+}
+.page-main .conte .flex {
+	margin-bottom: 5rem;
+}
+.page-main .douga .flex {
+	margin-bottom: 5rem;
+}
+.conte .flex .item h3 {
+	font-family: MS Gothic;
+}
+.douga .flex .item h3 {
+	font-family: MS Gothic;
+}
+.page .page-main .survey {
+	margin: 3rem;
+}
+.page .page-main .survey label {
+	font-size: 1.125rem;
+	margin-bottom: 10px;
+	display: block;
+}
+.survey input[type="text"], textarea  {
+	border: 1px solid #462fe7;
+	border-radius: 5px;
+	padding: 10px;
+	background: #fff;
+	font-size: 1rem;
+}
+.survey form div {
+	margin: 1rem;
+}
+.survey input[type="text"],  {
+	width: 100%;
+	max-width: 480px;
+}
+.survey textarea {
+	width: 100%;
+	max-width: 480px;
+	height: 6rem;
+}
+.survey input[type="submit"] {
+	border: none;
+	cursor: pointer;
+	line-height: 1;
+}
+.survey form .button {
+	font-size: 1.375rem;
+	background: #ff1583;
+	border-radius: 5px;
+	padding: 18px 32px;
+	color: #fff;
+	margin-left: 0.9rem;
+}
+.survey form .button:hover {
+	background: rgba(255,23,131,.2);
+	border: 1px #ff1583 solid;
+	color: #ff1583;
+}
+
+
+  @media (min-width:1200px) {
+    .page {
+      grid-template-columns: 260px 1fr;
+    }
+    .page-main {
+      grid-column: 2;
+      grid-row: 1 / -1;
+    }
+    .page-head {
+      padding: 40px 0;
+    }
+    .page-head img {
+      width: 200px;
+    }
+    .page-nav {
+      display: block;
+      background-color: #fff;
+    }
+    .page-btn {
+      display: none;
+    }
+    .page-foot {
+      padding: 40px 0;
+    }
+  .page-main .profile .flex {
+	display: flex;
+	margin-bottom: 3rem;
+  }
+.profile .flex .item img {
+	width: 50％;
+	height: auto;
+}
+.flex .item p {
+	width: 50％;
+	margin-left: 1rem;
+}
+.flex .item h3 {
+	margin-left: 2rem;
+	width: auto;
+}
+.page-main .conte .flex {
+	display: flex;
+	justify-content: space-between;
+}
+.page-main .douga .flex {
+	display: flex;
+	justify-content: space-between;
+}
+}

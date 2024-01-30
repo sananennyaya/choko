@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>チョコプラ紹介</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+<header class="page-head">
+<img src="image/rogo.jpg" alt=""/></header>
+<main class="page-main">
+<div class="class1">
+<h2 class="page-title">アンケート</h2>
+    </div>
+<div class="survey">
+  <form>
+    <div>
+      <label for="name">お名前</label>
+      <input name="your-name" type="text" id="name">
+      </div>
+    <div>
+      <label for="message">メッセージ</label>
+      <textarea name="your-message" id="message"></textarea>
+      </div>
+    <input type="submit" value="送信" class="button">
+  </form>
+</div>
+</main>
+<main class="page-nav">
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="profil.html">チョコプラについて</a></li>
+    <li><a href="conte.html">おすすめコント</a></li>
+    <li><a href="youtube.html">おすすめYouTube</a></li>
+    <li><a href="#">アンケート</a></li>
+  </ul>
+</main>
+    <button type="button" class="page-btn" onClick="myFunc()">
+        <span class="fas fa-bars" title="メニューを開く"></span></button>
+    <button type="button" class="page-btn-close" onClick="myFunc()">
+        <span class="fas fa-times" title="メニューを閉じる"></span></button>
+<footer class="page-foot">&copy;m23002</footer>
+<script>
+function myFunc() {
+    document.querySelector('.page').classList.toggle('open');
+}
+</script>
+</body>
+</html>
