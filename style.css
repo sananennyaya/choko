@@ -146,9 +146,8 @@
 	aspect-ratio: 16/9;
 }
 .flex .item .youtube iframe {
-	width: 80%;
-	height: auto;
-	max-wigth: 80%;
+	width: 100%;
+	height: 100%;
 }
 .page .page-main .douga {
 	margin: 3rem;
