@@ -143,7 +143,7 @@
 }
 .flex .item .youtube {
 	width: 100%;
-	aspect-ratio: 16/9;
+	aspect-ratio: 3/5;
 }
 .flex .item .youtube iframe {
 	width: 100%;
