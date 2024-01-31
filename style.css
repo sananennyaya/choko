@@ -142,9 +142,8 @@
 	margin-bottom: 1rem;
 }
 .flex .item .youtube {
-	padding-top: 56.25%;
 	width: 100%;
-	position: relative;
+	aspect-ratio: 16/9;
 }
 .flex .item .youtube iframe {
 	width: 80%;
