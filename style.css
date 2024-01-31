@@ -148,9 +148,8 @@
 }
 .flex .item .youtube iframe {
 	width: 80%;
-	height: 80%;
-	position: absolute;
-	top: 0px;
+	height: auto;
+	max-wigth: 80%;
 }
 .page .page-main .douga {
 	margin: 3rem;
